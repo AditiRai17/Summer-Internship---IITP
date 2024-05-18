@@ -189,22 +189,22 @@ To create a cybersecurity solution that provides real-time threat detection, aut
 
 
 ### 8. Real-time Threat Detection
-#### Subgoals
-### Centralized Login System
+### Subgoals
+#### Centralized Login System
 - **Tasks**:
   - Setup Elasticsearch for logging all authentication attempts.
   - Configure Logstash to process and transform login data.
   - Create Kibana dashboards to monitor login activities.
 - **Tools**: Elasticsearch, Logstash, Kibana
 
-### Continuous Monitoring of User Behavior
+#### Continuous Monitoring of User Behavior
 - **Tasks**:
   - Develop machine learning models to analyze login patterns and detect anomalies.
   - Implement Flask-based backend services to handle real-time monitoring and alerts.
   - Use historical data to train models and set baselines for normal behavior.
 - **Tools**: Python, Flask, machine learning libraries (e.g., scikit-learn, TensorFlow)
 
-### IP-Blocking Mechanism
+#### IP-Blocking Mechanism
 - **Tasks**:
   - Define IP blocking rules based on threat intelligence and MITRE framework.
   - Implement automated updating of IP blocklists.
@@ -228,22 +228,22 @@ To create a cybersecurity solution that provides real-time threat detection, aut
 
 
 ### 9. Automated Vulnerability Mitigation
-#### Subgoals
-### Real-time Email/SMS Alerts
+### Subgoals
+#### Real-time Email/SMS Alerts
 - **Tasks**:
   - Configure Twilio for sending SMS alerts based on defined severity levels.
   - Develop email alert system using Flask and integrate with existing infrastructure.
   - Implement alert priority system to categorize and manage alerts.
 - **Tools**: Twilio, Python, Flask
 
-### Automated Remediation Processes
+#### Automated Remediation Processes
 - **Tasks**:
   - Write scripts in C/C++ for automating common remediation tasks.
   - Develop Python-based automation framework to trigger remediation scripts.
   - Set up continuous integration and testing for remediation scripts.
 - **Tools**: C/C++, Python, CI/CD tools
 
-### Honeypot Integration
+#### Honeypot Integration
 - **Tasks**:
   - Deploy honeypots using Docker containers.
   - Configure honeypots to simulate various attack scenarios.
@@ -267,15 +267,15 @@ To create a cybersecurity solution that provides real-time threat detection, aut
 
 
 ### 10. Compliance Monitoring
-#### Subgoals
-### File Integrity Monitoring
+### Subgoals
+#### File Integrity Monitoring
 - **Tasks**:
   - Implement file integrity monitoring using open-source tools (e.g., Tripwire, AIDE).
   - Develop custom scripts to monitor and alert on unauthorized file changes.
   - Integrate file integrity monitoring with Elasticsearch for centralized logging.
 - **Tools**: Tripwire, AIDE, Elasticsearch
 
-### Detailed Report Generation for Audits
+#### Detailed Report Generation for Audits
 - **Tasks**:
   - Create Kibana dashboards to visualize compliance data.
   - Develop automated report generation scripts using Python.
@@ -296,15 +296,15 @@ To create a cybersecurity solution that provides real-time threat detection, aut
 
 
 ### 11. Source of Attack Identification using GenAI
-#### Subgoals
-### Analyze and Identify Attack Sources
+### Subgoals
+#### Analyze and Identify Attack Sources
 - **Tasks**:
   - Develop GenAI models using Mixtral 8x7B Instruct and TRT-LLM weights.
   - Train models on historical and real-time attack data.
   - Implement real-time analysis pipeline for attack source identification.
 - **Tools**: GenAI, Mixtral 8x7B Instruct, TRT-LLM
 
-### Simulate Various Attack Scenarios
+#### Simulate Various Attack Scenarios
 - **Tasks**:
   - Create containerized environments for attack simulations using Docker.
   - Develop scenarios for different types of attacks (e.g., brute-force, FTP, DNS spoofing).
