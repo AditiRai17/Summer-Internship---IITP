@@ -8,7 +8,7 @@ To create a cybersecurity solution that provides real-time threat detection, aut
 
 ### 1. Honeypot Integration
 #### Subgoals
-- **Deploy Honeypots to Lure Attackers**
+- **Deploy Honeypots to Attract Attackers**
 - **Analyze Attack Patterns**
 
 #### Challenges
