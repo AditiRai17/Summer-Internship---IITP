@@ -46,7 +46,7 @@ To create a cybersecurity solution that provides real-time threat detection, aut
   - **Tasks**:
     - Develop a single-click installation script using Python, with clear prompts and minimal user input.
     - Provide a detailed installation guide with troubleshooting tips and FAQs.
-  - **Tools**: Python, Shell Scripting, Documentation Tools (e.g., MkDocs)
+  - **Tools**: Python, Shell Scripting
 - **Ensure Cross-Platform Compatibility**
   - **Tasks**:
     - Test installation scripts across various platforms (Windows, Linux, macOS) to ensure compatibility.
